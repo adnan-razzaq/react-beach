@@ -172,7 +172,7 @@ h6 {
 /* Banner */
 .banner {
   display: inline-block;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   color: var(--mainWhite);
   padding: 2rem 1rem;
   text-align: center;

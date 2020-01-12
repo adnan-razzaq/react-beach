@@ -19,7 +19,11 @@ export default class navbar extends Component {
             <Link to="/">
               <img src={logo} alt="logo" />
             </Link>
-            <button type="button" className="nav-btn">
+            <button
+              type="button"
+              className="nav-btn"
+              onClick={this.handletoggle}
+            >
               <TiThMenuOutline className="nav-icon" />
             </button>
           </div>
